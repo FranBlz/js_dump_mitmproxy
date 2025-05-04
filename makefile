@@ -9,8 +9,8 @@ AUTO = -s $(ADDONS_DIR)/auto_dump_js.py
 # Clean up unwanted files
 clean:
 		rm -rf $(OUTPUT_DIR)
-		rm $(FLOWS_DIR)/*
-		rm -rf ./__pycache__
+		rm -rf $(ADDONS_DIR)/__pycache__
+		rm -f $(FLOWS_DIR)/*
 
 # Start mitmproxy with stable manual_dump_js.py addon
 stable:

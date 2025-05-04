@@ -1,7 +1,7 @@
 # Project Description
 
 This project uses `mitmproxy` to intercept and dump the contents of all JavaScript files loaded by a browser when visiting a website. 
-Currently has two working versions, a manual one that requires the user to force a fresh search in their browser (via ctrl+shift+R for example) and an experimental automatic one that takes any sort of page request and uses cache-busting to force a full redownload (WIP).
+Currently it has two working versions, a manual one that requires the user to force a full request in their browser (via ctrl+shift+R for example) and an experimental automatic one that takes any sort of page request and uses cache-busting to force a full redownload (WIP).
 
 ---
 

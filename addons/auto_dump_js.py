@@ -2,7 +2,7 @@
 # At this point I had read about cache-busting which seemed to be the only real solution to forcing a browser to download the whole page regardless
 # of its cache contents. This attemp was somewhat successfull, it does download all js components automatically but only the ones that are directly mentioned
 # in the main HTML file, if the reference to the js component is in another HTML file then it doesn't work. I'll try to address this in the future.
-# Another weird problem is that sometimes the main HTML file is not requested, in which case nothing is downloaded.
+# Another weird problem is that sometimes the main HTML file is not requested ([no content]), in which case nothing is downloaded.
 import os
 from datetime import datetime
 from bs4 import BeautifulSoup as bfs
