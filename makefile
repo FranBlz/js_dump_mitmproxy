@@ -14,10 +14,10 @@ clean:
 
 # Start mitmproxy with stable manual_dump_js.py addon
 stable:
-		mitmproxy $(MANUAL) $(FLAGS)
+		mitmproxy $(MANUAL)
 
 # Start mitmproxy with experimental auto_dump_js.py addon
 experimental:
-		mitmproxy $(AUTO) $(FLAGS)
+		mitmproxy $(AUTO)
 
 .PHONY: clean stable experimental
