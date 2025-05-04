@@ -1,4 +1,8 @@
 ## Version 4 ---------------------------------------------------------------------
+# From this version onward I tried to force the full page download eveytime regardless of the original browser request, this was in part to
+# not depend on user actions but mainly to try and learn some request/response manipulation.
+# This first attempt was aimed at modifying the request/response headers. It does instruct the browser not to cache
+# the contents, but I can't force a redownload with it. Also it breaks the requests from time to time (I assume the server detects some weird behaviour and stops responding).
 import os
 
 class Dump:

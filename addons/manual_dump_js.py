@@ -1,4 +1,6 @@
 ## Version 3 ---------------------------------------------------------------------
+# This version is almost the same as the previous one but I changed the js object detection to be dependant on the response instead of the request.
+# Still requires a manual full page request.
 import os
 
 class Dump:

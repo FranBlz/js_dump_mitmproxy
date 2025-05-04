@@ -1,4 +1,6 @@
 ## Version 1 ---------------------------------------------------------------------
+# In this first approach I used basic curl requests proxied through mitmproxy since it simplified the process a bit, also used BeautifulSoup
+# since I had some previous experience with it. I was happy once I was able to recognize the basic js elements and their paths.
 import os
 import logging
 from bs4 import BeautifulSoup as bfs

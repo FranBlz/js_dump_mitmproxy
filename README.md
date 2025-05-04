@@ -7,7 +7,8 @@ Currently has two working versions, a manual one that requires the user to force
 
 ## Iterative process
 
-I approached this project with an iterative process in mind, adding complexity between versions. All versions are available with no version control since this is not a production project.
+I approached this project with an iterative process in mind, adding complexity between versions. All versions are available in this repo with stream of consciousness comments for learning purposes.
+
 **Iterarions:**
 1. curl version
 2. cache issues
@@ -19,15 +20,15 @@ I approached this project with an iterative process in mind, adding complexity b
 ---
 
 ## Relevant resources
-[Official mitmproxy http doc](https://docs.mitmproxy.org/stable/api/mitmproxy/http.html)
-[Save resource files from visited websites](https://forums.gentoo.org/viewtopic-p-8817597.html?sid=b43ce5d86e9b152de33581dccb53263f)
-[Save body response from URL](https://stackoverflow.com/questions/48119483/save-body-response-from-specific-url-to-file-and-decode-it-using-mitmproxy)
-[Injecting js in HTML content](https://pankajmalhotra.com/Injecting-Javascript-In-HTML-Content-Using-MITM-Proxy)
-[How to remove headers mitmproxy](https://github.com/mitmproxy/mitmproxy/issues/3968)
-[How (and how not) to control caches](https://www.mnot.net/cache_docs/#CONTROL)
-[What is cache busting](https://www.curtiscode.dev/post/what-is-cache-busting)
-[Clear-Site-Data header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Clear-Site-Data)
-[What is the correct way to do cache busting](https://forum.level1techs.com/t/cache-busting-whats-the-correct-way/183217/7)
+- [Official mitmproxy http doc](https://docs.mitmproxy.org/stable/api/mitmproxy/http.html)
+- [Save resource files from visited websites](https://forums.gentoo.org/viewtopic-p-8817597.html?sid=b43ce5d86e9b152de33581dccb53263f)
+- [Save body response from URL](https://stackoverflow.com/questions/48119483/save-body-response-from-specific-url-to-file-and-decode-it-using-mitmproxy)
+- [Injecting js in HTML content](https://pankajmalhotra.com/Injecting-Javascript-In-HTML-Content-Using-MITM-Proxy)
+- [How to remove headers mitmproxy](https://github.com/mitmproxy/mitmproxy/issues/3968)
+- [How (and how not) to control caches](https://www.mnot.net/cache_docs/#CONTROL)
+- [What is cache busting](https://www.curtiscode.dev/post/what-is-cache-busting)
+- [Clear-Site-Data header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Clear-Site-Data)
+- [What is the correct way to do cache busting](https://forum.level1techs.com/t/cache-busting-whats-the-correct-way/183217/7)
 
 ---
 
@@ -44,12 +45,12 @@ I approached this project with an iterative process in mind, adding complexity b
 Clone the repo and use via makefile commands:
 
 ```bash
-git clone https://your.gitlab.repo/k8s-infra.git
-cd k8s-infra
+git clone https://github.com/FranBlz/js_dump_mitmproxy.git
+cd js_dump_mitmproxy
 make stable
 ```
 
 ---
 
 ## Author
-Francisco Bolzan - updated 03/05/2025
+Francisco Bolzan - updated 04/05/2025

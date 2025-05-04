@@ -1,4 +1,7 @@
 ## Version 2 ---------------------------------------------------------------------
+# At this point I wanted to tackle the problem using only mitmproxy, which turned out to be pretty straight forward but with a minor caveat.
+# For the .js files to be downloaded the browser cache has to be flushed/ignored, to do this manually I simulated a "fresh" request using ctrl+shift+R
+# which always gives a full page download.
 import os
 
 class Dump:
